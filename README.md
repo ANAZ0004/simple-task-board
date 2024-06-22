@@ -2,9 +2,8 @@
 
 Click image of application preview to access application!
 
-[![Application preview](<preview placeholder>)](<link placeholder>)
-
-URL: [<link placeholder>](<link_placeholder>)
+[![Application preview](<preview placeholder>)](https://anaz0004.github.io/simple-task-board)
+URL: [https://anaz0004.github.io/simple-task-board](https://anaz0004.github.io/simple-task-board)
 ## User Story
 
 * AS A project team member with multiple tasks to organize
