@@ -25,6 +25,41 @@
       <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#formModal">Add Task</button>
     </div>
     <!-- Todo: Create a modal with a form to add tasks -->
+    <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-6 shadow">
+          <div class="modal-header border-bottom-0">
+            <h5 class="modal-title">Add Task</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body py-0">
+            <form id="addTaskForm">
+              <div class="row">
+                <div class="col-6 py-3">
+                  <label for="taskTitleInput" class="form-label">Task Title</label>
+                  <input autocomplete="off" type="text" class="form-control" id="taskTitleInput"/>
+                </div>
+                <div class="col-6 py-3">
+                  <label for="taskDueDateInput" class="form-label">Task Due Date</label>
+                  <input autocomplete="off" type="text" class="form-control" id="taskDueDateInput"/>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 py-3">
+                  <label for="taskDescriptionInput" class="form-label">Task Description</label>
+                  <textarea autocomplete="off" class="form-control" id="taskDescriptionInput" rows="4"></textarea>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-4 py-3">
+                  <button type="submit" class="btn btn-lg btn-primary w-100 mx-0 mb-2">Confirm</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="row swim-lanes text-center justify-content-between">
       <div class="col-12 col-lg-4 d-flex">
         <div id="to-do" class="card border-light mb-3 lane flex-grow-1">
