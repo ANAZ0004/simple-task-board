@@ -2,7 +2,7 @@
 
 Click image of application preview to access application!
 
-[![Application preview](<preview placeholder>)](https://anaz0004.github.io/simple-task-board)
+[![Application preview](./docs/assets/images/application-preview.png)](https://anaz0004.github.io/simple-task-board)
 URL: [https://anaz0004.github.io/simple-task-board](https://anaz0004.github.io/simple-task-board)
 ## User Story
 
